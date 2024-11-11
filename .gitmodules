@@ -1,0 +1,3 @@
+[submodule "binaryTree/simpleConsoleParser"]
+	path = binaryTree/simpleConsoleParser
+	url = git@github.com:lvbealr/simpleConsoleParser.git
