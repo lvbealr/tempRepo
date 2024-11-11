@@ -1,0 +1,16 @@
+digraph binaryTree {
+splines=curved;
+rankdir=HR;
+nodesep=0.4;
+node [shape=record, fontname="JetBrains Mono", fontsize="10", color="gray", style="rounded"];
+edge [style=dashed, color="green", weight="10", penwidth="2", arrowsize="0.4"];
+p0x5b91fea702b0 [label = "{ <p> [0x5b91fea702b0] | <d> data = [100] | { <l> [0x5b91fea70920] | <r> [0x5b91fea708f0] }}"];
+p0x5b91fea70920 [label = "{ <p> [0x5b91fea70920] | <d> data = [12] | { <l> [(nil)] | <r> [(nil)] }}"];
+p0x5b91fea708f0 [label = "{ <p> [0x5b91fea708f0] | <d> data = [200] | { <l> [(nil)] | <r> [0x5b91fea70950] }}"];
+p0x5b91fea70950 [label = "{ <p> [0x5b91fea70950] | <d> data = [1488] | { <l> [0x5b91fea70980] | <r> [(nil)] }}"];
+p0x5b91fea70980 [label = "{ <p> [0x5b91fea70980] | <d> data = [228] | { <l> [(nil)] | <r> [(nil)] }}"];
+p0x5b91fea702b0:<l> -> p0x5b91fea70920
+p0x5b91fea702b0:<r> -> p0x5b91fea708f0
+p0x5b91fea708f0:<r> -> p0x5b91fea70950
+p0x5b91fea70950:<l> -> p0x5b91fea70980
+}
